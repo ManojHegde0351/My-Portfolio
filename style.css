@@ -1,0 +1,83 @@
+  html{
+            scroll-behavior: smooth;
+        }
+        body {
+          display:flex;
+          justify-content:center;
+          flex-direction:column;
+          font-family: "Trirong", serif;
+          font-size: 15px;
+          text-shadow: 2px 2px 2px #ababab;
+          line-height:1;
+          margin:10;
+          padding: 10;
+          background-color: #000000;
+          color: #f8f3f3;
+        }
+        header {
+            background: linear-gradient(to right, #ff0000, #ffe600);
+          display:flex;
+          justify-content:center;
+          flex-direction:column;
+        font-family: "Press Start 2P", system-ui;
+           font-weight: 400;
+           font-style: normal;
+            color: black;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav {
+          display:flex;
+          justify-content:center;
+           font-family: "Press Start 2P", system-ui;
+           font-weight: 400;
+           font-style: normal;
+            text-align:center;
+            margin: 20px 0;
+        }
+        nav a {
+          display:flex;
+          justify-content:center;
+          flex-direction:row;
+            color: #ee5f07;
+            text-decoration:none;
+            margin: 0 100px;
+            font-weight: bold;
+        }
+        .container {
+          display:flex;
+          justify-content:center;
+          flex-direction:column;
+            width: 85%;
+            margin: auto;
+        }
+        section {
+          display:flex;
+          justify-content:center;
+          flex-direction:column;
+          font-family: "Audiowide", sans-serif;
+            margin: 15px 0;
+            padding: 20px;
+            background: #01234f;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+        h2 {
+            color: #b53914fc;
+        }
+        ul {
+            list-style:Square;
+            padding: 20px;
+        }
+        ul li {
+            padding: 5px 0;
+        }
+        footer {
+            text-align: center;
+            margin: 20px 0;
+            font-size: 14px;
+            color: #555;
+        }
